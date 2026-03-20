@@ -1,0 +1,6 @@
+{
+  "name": "amend-reporting",
+  "mode": "owned",
+  "specPath": "specs/amend-reporting.md",
+  "featurePath": "features/amend-reporting.feature"
+}

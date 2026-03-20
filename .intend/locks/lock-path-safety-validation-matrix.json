@@ -1,0 +1,9 @@
+{
+  "name": "lock-path-safety-validation-matrix",
+  "version": 1,
+  "files": {
+    ".intend/trace/lock-path-safety-validation-matrix.json": "sha256:6b62deadbaf57296323d39ad463bb1536a68b30f9e13493fafa6bbf6245f67e5",
+    "features/lock-path-safety-validation-matrix.feature": "sha256:4f132f00913d284895eadcabb4eb50e8d5b91a40100235f3fb808de4e399cb33",
+    "specs/lock-path-safety-validation-matrix.md": "sha256:8c6a5a47967b4a2b20f119f3823a9daddd51d09ebd3735f4fe338592303ef9b1"
+  }
+}

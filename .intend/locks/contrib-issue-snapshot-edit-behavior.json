@@ -1,0 +1,9 @@
+{
+  "name": "contrib-issue-snapshot-edit-behavior",
+  "version": 1,
+  "files": {
+    ".intend/trace/contrib-issue-snapshot-edit-behavior.json": "sha256:9355a25c059e1efcbb1e98d68634d327c0c426bbeeca552fa34f6e7216d156c0",
+    "features/contrib-issue-snapshot-edit-behavior.feature": "sha256:77603bb3735207618d7889d04c685014e09a2c30b082a751f8c2d2c126ad84bc",
+    "specs/contrib-issue-snapshot-edit-behavior.md": "sha256:cb9eba1d1d5c16f492ddfe80a7d6406e6715724dbc2dcdc8ad62f00077cf5b69"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "init-tool-preflight",
+  "mode": "owned",
+  "specPath": "specs/init-tool-preflight.md",
+  "featurePath": "features/init-tool-preflight.feature"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "contrib-trace-issue-metadata-validation-matrix",
+  "mode": "owned",
+  "specPath": "specs/contrib-trace-issue-metadata-validation-matrix.md",
+  "featurePath": "features/contrib-trace-issue-metadata-validation-matrix.feature"
+}

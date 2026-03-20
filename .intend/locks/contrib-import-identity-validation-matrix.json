@@ -1,0 +1,9 @@
+{
+  "name": "contrib-import-identity-validation-matrix",
+  "version": 1,
+  "files": {
+    ".intend/trace/contrib-import-identity-validation-matrix.json": "sha256:39764a21db94ce91cce1d5edc1e1f211d5116a09246d86db2bbda94a97e09f08",
+    "features/contrib-import-identity-validation-matrix.feature": "sha256:c4e42fb09451b3003dee123b7740c18a8907e6ec9e365964b47a6f114b0efb5a",
+    "specs/contrib-import-identity-validation-matrix.md": "sha256:5fa2966b1ce5bb653d9d4c5965263274f36ed848e35efec4a9bac0cfbe54f77d"
+  }
+}

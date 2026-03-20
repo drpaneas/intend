@@ -1,0 +1,6 @@
+{
+  "name": "lock-required-trace",
+  "mode": "owned",
+  "specPath": "specs/lock-required-trace.md",
+  "featurePath": "features/lock-required-trace.feature"
+}

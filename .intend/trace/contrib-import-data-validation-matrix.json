@@ -1,0 +1,6 @@
+{
+  "name": "contrib-import-data-validation-matrix",
+  "mode": "owned",
+  "specPath": "specs/contrib-import-data-validation-matrix.md",
+  "featurePath": "features/contrib-import-data-validation-matrix.feature"
+}

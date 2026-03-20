@@ -1,0 +1,9 @@
+{
+  "name": "agent-install-behavior",
+  "version": 1,
+  "files": {
+    ".intend/trace/agent-install-behavior.json": "sha256:b0f5841273813b728fa00e703199ad37feb44dc1e96640abbbf2c7de44d9435f",
+    "features/agent-install-behavior.feature": "sha256:9e5b11465adb6c45f9e4ea5af12e919719c3c9483044e411ea1fa21984fb2b18",
+    "specs/agent-install-behavior.md": "sha256:678f1513b76b16b4a72891b99b38c54dc161dc128ea47787decc0ac918c5b580"
+  }
+}

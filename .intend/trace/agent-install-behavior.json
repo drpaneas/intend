@@ -1,0 +1,6 @@
+{
+  "name": "agent-install-behavior",
+  "mode": "owned",
+  "specPath": "specs/agent-install-behavior.md",
+  "featurePath": "features/agent-install-behavior.feature"
+}

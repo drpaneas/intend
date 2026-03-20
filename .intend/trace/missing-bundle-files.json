@@ -1,0 +1,6 @@
+{
+  "name": "missing-bundle-files",
+  "mode": "owned",
+  "specPath": "specs/missing-bundle-files.md",
+  "featurePath": "features/missing-bundle-files.feature"
+}

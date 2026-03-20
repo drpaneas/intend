@@ -1,0 +1,6 @@
+{
+  "name": "contrib-import-identity-validation-matrix",
+  "mode": "owned",
+  "specPath": "specs/contrib-import-identity-validation-matrix.md",
+  "featurePath": "features/contrib-import-identity-validation-matrix.feature"
+}

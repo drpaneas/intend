@@ -1,0 +1,9 @@
+{
+  "name": "init-tool-preflight",
+  "version": 1,
+  "files": {
+    ".intend/trace/init-tool-preflight.json": "sha256:75510d121eabfe18f4b99c352892163d05764443788526bcba18823972b0f7a6",
+    "features/init-tool-preflight.feature": "sha256:eb20f9580718233a56bcfbcff6396ad9f5928c2c5211a01f70a19b972e93ea05",
+    "specs/init-tool-preflight.md": "sha256:9421893e0491c47ddfe5a7f2176437d5dbec20393ebd15d9a32120fef9fdf514"
+  }
+}

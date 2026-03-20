@@ -1,0 +1,9 @@
+{
+  "name": "contrib-import-url-validation-matrix",
+  "version": 1,
+  "files": {
+    ".intend/trace/contrib-import-url-validation-matrix.json": "sha256:8c41d0488ef6f72fbf730219862f40a4d65248063da586242b3a25f831debd51",
+    "features/contrib-import-url-validation-matrix.feature": "sha256:7ed967e48a0e95d6801fd405236a14b5c117379ee5342fbab90bd5024a8c5f70",
+    "specs/contrib-import-url-validation-matrix.md": "sha256:228c7e426248a51192d44c79d626db5e88c7439f7bfbd0f657c978e440d1cfd5"
+  }
+}

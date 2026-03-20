@@ -1,0 +1,9 @@
+{
+  "name": "contrib-import-data-validation-matrix",
+  "version": 1,
+  "files": {
+    ".intend/trace/contrib-import-data-validation-matrix.json": "sha256:f1ac2d83d2d97d97bd1da31bccd7885417c64905e9bed2d7663473118c3eabba",
+    "features/contrib-import-data-validation-matrix.feature": "sha256:fbe8c91cd57b867e7935308791ff676e6bd93830d868f2476f21a7591d7da8fa",
+    "specs/contrib-import-data-validation-matrix.md": "sha256:f738f4ad92c5e585a8f343e62d76fe0d720f32e15a599c0602d64a340a7b56b8"
+  }
+}

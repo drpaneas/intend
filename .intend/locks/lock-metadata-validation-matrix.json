@@ -1,0 +1,9 @@
+{
+  "name": "lock-metadata-validation-matrix",
+  "version": 1,
+  "files": {
+    ".intend/trace/lock-metadata-validation-matrix.json": "sha256:11878cc28459e29e75b2403b2e1e062d1432643c47ba9ac8b02710ee194c9cb8",
+    "features/lock-metadata-validation-matrix.feature": "sha256:b98cb28d4e6b8c5a83edb6c580b4ddcbc94099cca3143e39d2c50ceef8101e41",
+    "specs/lock-metadata-validation-matrix.md": "sha256:a2293acab93427710c992044bbac99bd646a9a2ffa0ac8ba21b7dd76b617fe1a"
+  }
+}

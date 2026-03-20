@@ -1,0 +1,9 @@
+{
+  "name": "semantic-lock-metadata-validation",
+  "version": 1,
+  "files": {
+    ".intend/trace/semantic-lock-metadata-validation.json": "sha256:a9be8bb4806fdae51cb7f6ef8a6f6dde4472134bf485257ea027ff8d3d562153",
+    "features/semantic-lock-metadata-validation.feature": "sha256:e50c134a6dc293dfc3753339d295038181f2b7aae04d036d4abafe1f2e73874b",
+    "specs/semantic-lock-metadata-validation.md": "sha256:21521780d84280fcb225ba6cac98daf709d9727365c454850a91dfca0e9b67c3"
+  }
+}

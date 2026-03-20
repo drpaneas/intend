@@ -1,0 +1,9 @@
+{
+  "name": "trace-metadata-validation-matrix",
+  "version": 1,
+  "files": {
+    ".intend/trace/trace-metadata-validation-matrix.json": "sha256:f632a5fa6989958ccb8d0aad8f4c9e3603e55ffc4fda5258f6de6a897a2467ce",
+    "features/trace-metadata-validation-matrix.feature": "sha256:a60d22ae3f00cb8e641b99eab4665591a54713fcc762e007d30c3d206587cf3a",
+    "specs/trace-metadata-validation-matrix.md": "sha256:adb8a8bc9dc7770800a5d699849f5ef95794aaad1facd74a0a2f9704009c155f"
+  }
+}

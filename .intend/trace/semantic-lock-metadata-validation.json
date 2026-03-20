@@ -1,0 +1,6 @@
+{
+  "name": "semantic-lock-metadata-validation",
+  "mode": "owned",
+  "specPath": "specs/semantic-lock-metadata-validation.md",
+  "featurePath": "features/semantic-lock-metadata-validation.feature"
+}

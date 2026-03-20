@@ -1,0 +1,6 @@
+{
+  "name": "trace-path-safety-validation-matrix",
+  "mode": "owned",
+  "specPath": "specs/trace-path-safety-validation-matrix.md",
+  "featurePath": "features/trace-path-safety-validation-matrix.feature"
+}

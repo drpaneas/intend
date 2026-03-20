@@ -1,0 +1,6 @@
+{
+  "name": "cli-ux-reporting",
+  "mode": "owned",
+  "specPath": "specs/cli-ux-reporting.md",
+  "featurePath": "features/cli-ux-reporting.feature"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "contrib-semantic-lock-backward-compatibility",
+  "version": 1,
+  "files": {
+    ".intend/trace/contrib-semantic-lock-backward-compatibility.json": "sha256:7b5b52a68becf0d5ab06e0c602094313c32094116cebbc154d6dd4b92f493967",
+    "features/contrib-semantic-lock-backward-compatibility.feature": "sha256:51cea95da7d0926e5103a219e2ce84161f3508a2e55364da1c90d2d44bec79c7",
+    "specs/contrib-semantic-lock-backward-compatibility.md": "sha256:7a83bb0dc5cc974f7aa09c160b24d224e95ff0e166127fe96af7d5f52a4af026"
+  }
+}

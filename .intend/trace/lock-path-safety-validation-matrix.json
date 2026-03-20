@@ -1,0 +1,6 @@
+{
+  "name": "lock-path-safety-validation-matrix",
+  "mode": "owned",
+  "specPath": "specs/lock-path-safety-validation-matrix.md",
+  "featurePath": "features/lock-path-safety-validation-matrix.feature"
+}

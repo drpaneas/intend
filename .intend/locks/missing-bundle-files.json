@@ -1,0 +1,9 @@
+{
+  "name": "missing-bundle-files",
+  "version": 1,
+  "files": {
+    ".intend/trace/missing-bundle-files.json": "sha256:e0e09d339c62af3775be7e57087c0fbaaa501d4573b8ee37a74c3aea00bc5023",
+    "features/missing-bundle-files.feature": "sha256:5459f6017d3b524707854f650be6f8b443c5be8e8f5cf1b7005bd31461832bd5",
+    "specs/missing-bundle-files.md": "sha256:c77cea9b1cacfe2754c3438a73125eb0510ebc68231d08f324177948d21b400c"
+  }
+}

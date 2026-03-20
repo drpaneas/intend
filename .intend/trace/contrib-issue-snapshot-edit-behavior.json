@@ -1,0 +1,6 @@
+{
+  "name": "contrib-issue-snapshot-edit-behavior",
+  "mode": "owned",
+  "specPath": "specs/contrib-issue-snapshot-edit-behavior.md",
+  "featurePath": "features/contrib-issue-snapshot-edit-behavior.feature"
+}

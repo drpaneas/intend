@@ -1,0 +1,6 @@
+{
+  "name": "contrib-contract-lifecycle",
+  "mode": "owned",
+  "specPath": "specs/contrib-contract-lifecycle.md",
+  "featurePath": "features/contrib-contract-lifecycle.feature"
+}

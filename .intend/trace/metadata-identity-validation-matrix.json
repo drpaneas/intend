@@ -1,0 +1,6 @@
+{
+  "name": "metadata-identity-validation-matrix",
+  "mode": "owned",
+  "specPath": "specs/metadata-identity-validation-matrix.md",
+  "featurePath": "features/metadata-identity-validation-matrix.feature"
+}

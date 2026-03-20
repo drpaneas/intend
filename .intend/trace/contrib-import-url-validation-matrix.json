@@ -1,0 +1,6 @@
+{
+  "name": "contrib-import-url-validation-matrix",
+  "mode": "owned",
+  "specPath": "specs/contrib-import-url-validation-matrix.md",
+  "featurePath": "features/contrib-import-url-validation-matrix.feature"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "amend-reporting",
+  "version": 1,
+  "files": {
+    ".intend/trace/amend-reporting.json": "sha256:918faeed87b53b416cab11eb20dcd965ae3c12bed7a3680859314ab5f40d5b9e",
+    "features/amend-reporting.feature": "sha256:397a9fd7c45949914c069ff74adaa6398f5f985c20b35a17fa9e6029e74b75d3",
+    "specs/amend-reporting.md": "sha256:41b0d12a7115a1d6359371e39048b4bc4eb9cd45b3e3a2719399e7c7d3af4ea5"
+  }
+}

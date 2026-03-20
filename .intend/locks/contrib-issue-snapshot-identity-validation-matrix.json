@@ -1,0 +1,9 @@
+{
+  "name": "contrib-issue-snapshot-identity-validation-matrix",
+  "version": 1,
+  "files": {
+    ".intend/trace/contrib-issue-snapshot-identity-validation-matrix.json": "sha256:13a933cbb80f0b79bfc4f3808a63c4c749ce47890a573e21fe5d663cc7c74789",
+    "features/contrib-issue-snapshot-identity-validation-matrix.feature": "sha256:05e450a07f55ae7bf294ae5b412e6ce71192cea9a8ed8e2306cbb73de0ed5219",
+    "specs/contrib-issue-snapshot-identity-validation-matrix.md": "sha256:54d8f792ed477ec5ad58ae6fb143d98d5f245f9b6f6aaa8f768da2e70e79efa5"
+  }
+}

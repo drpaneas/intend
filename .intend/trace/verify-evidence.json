@@ -1,0 +1,6 @@
+{
+  "name": "verify-evidence",
+  "mode": "owned",
+  "specPath": "specs/verify-evidence.md",
+  "featurePath": "features/verify-evidence.feature"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "contrib-issue-snapshot-url-validation-matrix",
+  "mode": "owned",
+  "specPath": "specs/contrib-issue-snapshot-url-validation-matrix.md",
+  "featurePath": "features/contrib-issue-snapshot-url-validation-matrix.feature"
+}

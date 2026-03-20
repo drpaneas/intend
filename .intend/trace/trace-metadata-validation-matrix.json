@@ -1,0 +1,6 @@
+{
+  "name": "trace-metadata-validation-matrix",
+  "mode": "owned",
+  "specPath": "specs/trace-metadata-validation-matrix.md",
+  "featurePath": "features/trace-metadata-validation-matrix.feature"
+}

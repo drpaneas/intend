@@ -1,0 +1,9 @@
+{
+  "name": "contrib-shadow-bundle",
+  "version": 1,
+  "files": {
+    ".intend/trace/contrib-shadow-bundle.json": "sha256:055b3124c925399a513fffb2121d430144f34813d95a66813bfa241e6ba360ad",
+    "features/contrib-shadow-bundle.feature": "sha256:b8ed6a87b8d0ce07c311c4d7a7b40b54c20f420f8d21b708c365ad4a49d602d2",
+    "specs/contrib-shadow-bundle.md": "sha256:1345bc8b08ae18f6284bca4b73a0b81c2a32103524f6925cf66c90ea76b6c72a"
+  }
+}

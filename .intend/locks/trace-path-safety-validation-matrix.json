@@ -1,0 +1,9 @@
+{
+  "name": "trace-path-safety-validation-matrix",
+  "version": 1,
+  "files": {
+    ".intend/trace/trace-path-safety-validation-matrix.json": "sha256:e7fc1896acc7b457615a6c611e63d3a74838d0ddfebf1676ddbe41efad7e101d",
+    "features/trace-path-safety-validation-matrix.feature": "sha256:f6952e0cbdbb5b04bf7dbcf4a565a19c73116e701b37ffadf4dba733d64fded0",
+    "specs/trace-path-safety-validation-matrix.md": "sha256:79e1887b112915607e4b0b79d26f9277d028a965ce109036c0cd3c29683c55a0"
+  }
+}

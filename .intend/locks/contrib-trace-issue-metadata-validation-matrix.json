@@ -1,0 +1,9 @@
+{
+  "name": "contrib-trace-issue-metadata-validation-matrix",
+  "version": 2,
+  "files": {
+    ".intend/trace/contrib-trace-issue-metadata-validation-matrix.json": "sha256:77c071f112700f640f18f86e1cc8f83af140037618f69b19db3f1dd242c5bcb9",
+    "features/contrib-trace-issue-metadata-validation-matrix.feature": "sha256:60073e5ce14239e204c0363818e603dd03e0933b1d81ea3a11f748e41bc9c239",
+    "specs/contrib-trace-issue-metadata-validation-matrix.md": "sha256:9d6b59725d0a5a8eda532eb4e9587d1b07141824913e958a2dbb96cce7c26a56"
+  }
+}

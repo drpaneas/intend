@@ -1,0 +1,6 @@
+{
+  "name": "contrib-issue-snapshot-identity-validation-matrix",
+  "mode": "owned",
+  "specPath": "specs/contrib-issue-snapshot-identity-validation-matrix.md",
+  "featurePath": "features/contrib-issue-snapshot-identity-validation-matrix.feature"
+}

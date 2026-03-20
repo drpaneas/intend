@@ -1,0 +1,6 @@
+{
+  "name": "lock-metadata-validation-matrix",
+  "mode": "owned",
+  "specPath": "specs/lock-metadata-validation-matrix.md",
+  "featurePath": "features/lock-metadata-validation-matrix.feature"
+}

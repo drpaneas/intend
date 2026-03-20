@@ -1,0 +1,6 @@
+{
+  "name": "amend-idempotency",
+  "mode": "owned",
+  "specPath": "specs/amend-idempotency.md",
+  "featurePath": "features/amend-idempotency.feature"
+}

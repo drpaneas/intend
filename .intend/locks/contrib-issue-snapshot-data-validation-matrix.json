@@ -1,0 +1,9 @@
+{
+  "name": "contrib-issue-snapshot-data-validation-matrix",
+  "version": 1,
+  "files": {
+    ".intend/trace/contrib-issue-snapshot-data-validation-matrix.json": "sha256:9cb9c02feb785d71c70b7e6256b02c8f3e94527ffb4c924412b0d136dffeff5e",
+    "features/contrib-issue-snapshot-data-validation-matrix.feature": "sha256:247e4b987fc14e80e3d0abf216c4c3554d3a6b3ec19fd378517dff421b784632",
+    "specs/contrib-issue-snapshot-data-validation-matrix.md": "sha256:eb2dec5bc5d3f29ba5469c21730135fec33c7721a6a7c0caef1eee7ad0547bb9"
+  }
+}

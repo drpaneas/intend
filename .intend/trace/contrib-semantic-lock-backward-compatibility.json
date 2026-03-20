@@ -1,0 +1,6 @@
+{
+  "name": "contrib-semantic-lock-backward-compatibility",
+  "mode": "owned",
+  "specPath": "specs/contrib-semantic-lock-backward-compatibility.md",
+  "featurePath": "features/contrib-semantic-lock-backward-compatibility.feature"
+}

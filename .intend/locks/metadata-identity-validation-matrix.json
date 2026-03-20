@@ -1,0 +1,9 @@
+{
+  "name": "metadata-identity-validation-matrix",
+  "version": 1,
+  "files": {
+    ".intend/trace/metadata-identity-validation-matrix.json": "sha256:b5edf930a2062265d52112ee63f49bc0c4906ccefefc2945052850da1b14939c",
+    "features/metadata-identity-validation-matrix.feature": "sha256:0c7736616dc2a57f3ebbf1213efda4a4118628908eeedc9d2c4a9ab3e09ac8c0",
+    "specs/metadata-identity-validation-matrix.md": "sha256:4069907ea28f811f45a1211a68c0e430118116c9b34c44b3e54828a0753d5ad3"
+  }
+}

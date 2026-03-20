@@ -1,0 +1,6 @@
+{
+  "name": "contrib-issue-snapshot-data-validation-matrix",
+  "mode": "owned",
+  "specPath": "specs/contrib-issue-snapshot-data-validation-matrix.md",
+  "featurePath": "features/contrib-issue-snapshot-data-validation-matrix.feature"
+}

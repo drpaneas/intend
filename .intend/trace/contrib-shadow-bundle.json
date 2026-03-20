@@ -1,0 +1,6 @@
+{
+  "name": "contrib-shadow-bundle",
+  "mode": "owned",
+  "specPath": "specs/contrib-shadow-bundle.md",
+  "featurePath": "features/contrib-shadow-bundle.feature"
+}
