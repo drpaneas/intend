@@ -1,9 +1,17 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "intend"
+theme = "hugo-book"
 disableKinds = ["taxonomy", "term", "rss", "sitemap", "robotstxt"]
 
 [markup]
+  [markup.tableOfContents]
+    startLevel = 1
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = false
+
+[params]
+  BookTheme = "light"
+  BookLogo = "intend-logo.png"
+  BookSection = "/"

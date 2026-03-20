@@ -32,15 +32,5 @@ Each change bundle lives in the repository:
 
 No hidden database. No editor-only magic. Just a sharper workflow for building Go software when "looks plausible" is not good enough.
 
-```bash
-go build ./cmd/intend
-go run ./cmd/intend init
-go run ./cmd/intend new <name>
-go run ./cmd/intend lock <name>
-go run ./cmd/intend trace <name>
-go run ./cmd/intend amend <name>
-go run ./cmd/intend verify
-```
-
 Docs: [site](https://drpaneas.github.io/intend/) | [source](docs/)
 Contributing: [CONTRIBUTING.md](CONTRIBUTING.md)
