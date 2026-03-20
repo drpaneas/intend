@@ -142,6 +142,34 @@ Sometimes the contract itself needs to move. When that happens, record the new b
 
 If nothing changed, `intend` says so. If the contract changed intentionally, the lock version is incremented.
 
+## Delete a bundle you do not want to keep
+
+If you decide to abandon the bundle entirely, remove it through the CLI:
+
+```bash
+./intend delete hello-world
+```
+
+This removes:
+
+```text
+specs/hello-world.md
+features/hello-world.feature
+.intend/trace/hello-world.json
+```
+
+If the bundle was already locked, `intend delete` refuses by default. Use `--force` when you really mean to remove that locked bundle too:
+
+```bash
+./intend delete --force hello-world
+```
+
+That also removes:
+
+```text
+.intend/locks/hello-world.json
+```
+
 ## Next steps
 
 - Read [Workflow](../workflow/) for the full owned and contribution-mode lifecycle.

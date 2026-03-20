@@ -187,6 +187,30 @@ func Run(args []string, stdout, stderr io.Writer) int {
 			return 1
 		}
 		return 0
+	case "delete":
+		mode, force, name, code := parseDeleteArgs(args[1:], stderr)
+		if code != 0 {
+			return code
+		}
+
+		if err := workflow.DeleteBundleWithMode(root, mode, name, force); err != nil {
+			if !writef(stderr, "delete: %v\n", err) {
+				return 1
+			}
+			return 1
+		}
+
+		if mode == "contrib" {
+			if !writef(stdout, "deleted contribution bundle %s\n", name) {
+				return 1
+			}
+			return 0
+		}
+
+		if !writef(stdout, "deleted bundle %s\n", name) {
+			return 1
+		}
+		return 0
 	case "verify":
 		if len(args) != 1 {
 			if !printVerifyUsage(stderr) {
@@ -242,7 +266,7 @@ func Run(args []string, stdout, stderr io.Writer) int {
 }
 
 func printUsage(w io.Writer) bool {
-	return writeln(w, "usage: intend <init|new|lock|trace|amend|verify|agent install> [name]")
+	return writeln(w, "usage: intend <init|new|lock|trace|amend|delete|verify|agent install> [name]")
 }
 
 func printVerifyUsage(w io.Writer) bool {
@@ -266,6 +290,26 @@ func parseModeNameArgs(command string, args []string, stderr io.Writer) (string,
 	}
 
 	return *mode, flags.Arg(0), 0
+}
+
+func parseDeleteArgs(args []string, stderr io.Writer) (string, bool, string, int) {
+	flags := flag.NewFlagSet("delete", flag.ContinueOnError)
+	flags.SetOutput(stderr)
+
+	mode := flags.String("mode", "owned", "bundle mode")
+	force := flags.Bool("force", false, "delete locked bundles")
+	if err := flags.Parse(args); err != nil {
+		return "", false, "", 2
+	}
+
+	if flags.NArg() != 1 {
+		if !printUsage(stderr) {
+			return "", false, "", 1
+		}
+		return "", false, "", 2
+	}
+
+	return *mode, *force, flags.Arg(0), 0
 }
 
 func writef(w io.Writer, format string, args ...any) bool {

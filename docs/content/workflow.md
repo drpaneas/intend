@@ -82,7 +82,23 @@ Use `amend` when the contract changed on purpose after review.
 
 Do not use it to hide accidental drift.
 
-### 6. Verify the repository
+### 6. Delete a bundle you are abandoning
+
+Sometimes you decide not to carry a bundle forward.
+
+```bash
+./intend delete add-login
+```
+
+This removes the spec, feature, trace, and any lock file for that owned bundle.
+
+If the bundle is already locked, `delete` refuses by default. Use `--force` when you really mean to remove that locked contract state:
+
+```bash
+./intend delete --force add-login
+```
+
+### 7. Verify the repository
 
 ```bash
 ./intend verify
@@ -131,9 +147,12 @@ trace/fix-issue-123.json
 ./intend lock --mode contrib fix-issue-123
 ./intend trace --mode contrib fix-issue-123
 ./intend amend --mode contrib fix-issue-123
+./intend delete --mode contrib fix-issue-123
 ```
 
 The idea is the same. The only difference is where the bundle lives.
+
+If the contribution bundle is locked, add `--force` to delete it.
 
 ## Cursor guidance
 

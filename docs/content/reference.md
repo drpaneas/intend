@@ -19,6 +19,8 @@ This page is for day-to-day lookup.
 | `intend trace --mode contrib <name>` | Validate and compare a contribution bundle | Reads from the shadow bundle |
 | `intend amend <name>` | Record an intentional contract change | Increments the lock version |
 | `intend amend --mode contrib <name>` | Amend a contribution bundle | Same rule, different storage location |
+| `intend delete <name>` | Delete an owned bundle | Refuses locked bundles unless `--force` is used |
+| `intend delete --mode contrib <name>` | Delete a contribution bundle | Removes the shadow bundle, refuses locked bundles unless `--force` is used |
 | `intend verify` | Trace all bundles, then run repo checks | Uses external tools |
 | `intend agent install cursor` | Install managed Cursor guidance | Safe to re-run, refuses overwrite of edited managed files |
 
@@ -112,5 +114,6 @@ bad: add_login
 ## Notes
 
 - `trace` expects the bundle to already be locked.
+- `delete` removes bundle files from the active mode and requires `--force` for locked bundles.
 - `verify` traces bundles before running repository checks.
 - Current agent support is Cursor-only.
