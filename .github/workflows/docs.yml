@@ -8,6 +8,9 @@ on:
       - "docs/**"
   workflow_dispatch:
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 permissions:
   contents: read
   pages: write
@@ -37,7 +40,7 @@ jobs:
           extended: false
 
       - name: Build site
-        run: hugo --source docs --destination docs/public --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        run: hugo --source docs --destination public --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
