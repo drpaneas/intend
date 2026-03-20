@@ -1,8 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "intend"
-relativeURLs = true
-disableKinds = ["taxonomy", "term", "RSS", "sitemap", "robotsTXT"]
+disableKinds = ["taxonomy", "term", "rss", "sitemap", "robotstxt"]
 
 [markup]
   [markup.goldmark]

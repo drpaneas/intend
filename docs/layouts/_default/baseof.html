@@ -9,7 +9,7 @@
   <body>
     <div class="wrap">
       <header class="site-header">
-        <p class="site-name"><a href="{{ "/" | relURL }}">{{ .Site.Title }}</a></p>
+        <p class="site-name"><a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a></p>
       </header>
       <main>
         {{ block "main" . }}{{ end }}
