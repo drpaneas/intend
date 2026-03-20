@@ -1,5 +1,9 @@
 # intend
 
+<p align="center">
+  <img src="docs/static/intend-logo.png" alt="intend logo" width="480">
+</p>
+
 [![CI](https://github.com/drpaneas/intend/actions/workflows/ci.yml/badge.svg)](https://github.com/drpaneas/intend/actions/workflows/ci.yml)
 [![Docs](https://github.com/drpaneas/intend/actions/workflows/docs.yml/badge.svg)](https://github.com/drpaneas/intend/actions/workflows/docs.yml)
 [![Release](https://img.shields.io/github/v/release/drpaneas/intend?display_name=tag)](https://github.com/drpaneas/intend/releases)

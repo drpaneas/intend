@@ -105,3 +105,14 @@ pre {
 .page-list li {
   margin: 0 0 0.75rem;
 }
+
+.hero-logo {
+  margin: 0 0 1.5rem;
+  text-align: center;
+}
+
+.hero-logo img {
+  display: inline-block;
+  width: min(100%, 30rem);
+  height: auto;
+}
