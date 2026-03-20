@@ -40,14 +40,18 @@ func Run(root string, stdout io.Writer) error {
 	}
 
 	for _, ref := range refs {
-		fmt.Fprintf(stdout, "trace: checking %s bundle %s\n", ref.Mode, ref.Name)
+		if _, err := fmt.Fprintf(stdout, "trace: checking %s bundle %s\n", ref.Mode, ref.Name); err != nil {
+			return err
+		}
 		if err := workflow.TraceBundleWithMode(root, ref.Mode, ref.Name); err != nil {
 			return err
 		}
 	}
 
 	for _, command := range defaultCommands {
-		fmt.Fprintf(stdout, "verify: running %s\n", formatCommand(command))
+		if _, err := fmt.Fprintf(stdout, "verify: running %s\n", formatCommand(command)); err != nil {
+			return err
+		}
 		if err := runCommand(root, command); err != nil {
 			return err
 		}

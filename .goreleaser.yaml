@@ -1,0 +1,54 @@
+version: 2
+
+project_name: intend
+
+before:
+  hooks:
+    - go test ./... -count=1
+
+builds:
+  - id: intend
+    main: ./cmd/intend
+    binary: intend
+    env:
+      - CGO_ENABLED=0
+    goos:
+      - darwin
+      - linux
+      - windows
+    goarch:
+      - amd64
+      - arm64
+
+archives:
+  - id: bundles
+    name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+    files:
+      - LICENSE
+      - README.md
+      - CONTRIBUTING.md
+    format_overrides:
+      - goos: windows
+        formats: zip
+
+checksum:
+  name_template: checksums.txt
+
+snapshot:
+  version_template: "{{ incpatch .Version }}-next"
+
+release:
+  github:
+    owner: drpaneas
+    name: intend
+  prerelease: auto
+
+changelog:
+  sort: asc
+  filters:
+    exclude:
+      - "^docs:"
+      - "^test:"
+      - "^chore:"
+      - "^ci:"
+      - "^Merge "

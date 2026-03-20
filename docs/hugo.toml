@@ -1,0 +1,10 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "intend"
+relativeURLs = true
+disableKinds = ["taxonomy", "term", "RSS", "sitemap", "robotsTXT"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false

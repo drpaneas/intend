@@ -1,0 +1,17 @@
+{{ define "main" }}
+<article class="page">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+</article>
+
+<nav class="page-list">
+  <ul>
+    {{ range .Site.RegularPages.ByTitle }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+      {{ with .Params.summary }} - {{ . }}{{ end }}
+    </li>
+    {{ end }}
+  </ul>
+</nav>
+{{ end }}
