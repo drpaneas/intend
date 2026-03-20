@@ -6,7 +6,7 @@
 
 <nav class="page-list">
   <ul>
-    {{ range .Site.RegularPages.ByTitle }}
+    {{ range .Site.RegularPages.ByWeight }}
     <li>
       <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
       {{ with .Params.summary }} - {{ . }}{{ end }}
